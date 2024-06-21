@@ -19,7 +19,7 @@ export const Signup = () => {
       <HomeAppBar />
       <div className="bg-slate-900 h-screen flex justify-center">
     <div className="flex flex-col justify-center">
-      <div className="rounded-lg hover:shadow-lg bg-white w-80 hover:shadow-white text-center p-2 h-max px-4">
+      <div className="rounded-lg hover:shadow-lg bg-white w-[450px] hover:shadow-white text-center p-4 h-[500px] px-4">
         <Heading label={"Sign up"} />
         <SubHeading label={"Enter your infromation to create an account"} />
         <InputBox onChange={e => {

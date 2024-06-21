@@ -18,6 +18,7 @@ export const Home = () => {
                 <img src="https://assetscdn1.paytm.com/images/catalog/view_item/850762/1715933362922.png" alt="" />
             </div>
                 </div>
+           
       </div>
     </div>
   )
