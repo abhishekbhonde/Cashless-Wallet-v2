@@ -10,7 +10,7 @@ import { SendMoney } from "./pages/SendMoney";
 import { Home } from "./pages/Home"
 function App() {
   return (
-    <>
+    <div>
        <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home/>}/>
@@ -20,7 +20,7 @@ function App() {
           <Route path="/send" element={<SendMoney />} />
         </Routes>
       </BrowserRouter>
-    </>
+    </div>
   )
 }
 
