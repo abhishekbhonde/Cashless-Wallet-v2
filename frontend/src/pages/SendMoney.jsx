@@ -43,7 +43,7 @@ export const SendMoney = () => {
                     />
                     </div>
                     <button onClick={() => {
-                        axios.post("http://localhost:3002/api/v1/account/transfer", {
+                        axios.post("https://cashless-wallet-v2-api.vercel.app/api/v1/account/transfer", {
                             to: id,
                             amount
                         }, {
