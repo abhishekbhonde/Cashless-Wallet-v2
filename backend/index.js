@@ -7,7 +7,9 @@ const app = express();
 
 app.use(cors(
     {
-        origin:["https://deploy-mern"]
+        origin:["https://cashless-wallet-v2-mkoa.vercel.app/"],
+        methods:["POST", "GET"],
+        credentials:"true"
     }
 ));
 app.use(express.json());
